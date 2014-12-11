@@ -1,0 +1,7 @@
+niconfig -set inter port 80
+modeconfig -set DR
+ripconfig -add ip 192.168.100.200 port 0
+ripconfig -add ip 192.168.100.201 port 0
+ripconfig -add ip 192.168.100.202 port 0
+ripconfig -add ip 192.168.100.203 port 0
+ripconfig -add ip 192.168.100.204 port 0

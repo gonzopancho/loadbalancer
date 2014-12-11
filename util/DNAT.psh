@@ -1,0 +1,7 @@
+niconfig -set inter ip 192.168.101.10 mask 255.255.255.0 port 80
+modeconfig -set DNAT
+ripconfig -add ip 192.168.100.200 port 8080
+ripconfig -add ip 192.168.100.200 port 8081
+ripconfig -add ip 192.168.100.200 port 8082
+ripconfig -add ip 192.168.100.200 port 8083
+ripconfig -add ip 192.168.100.200 port 8084
